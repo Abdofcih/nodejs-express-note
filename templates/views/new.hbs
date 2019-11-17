@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New Note</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mycss.css">
+    <link  rel="icon" href="ico/icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    {{>header}}
+    <div class="container">
+                <div class="form-group">
+                        <input id="title" type="text" class="form-control" placeholder="Title">
+                </div>
+                <div class="form-group">
+                        <textarea id="desc"class="form-control"  rows="15" placeholder="Content" style="overflow:auto;resize:none"></textarea>
+                      </div>
+                      <div class="form-group">
+                          <button  class="btn btn-primary" onclick="onSave()" >Save</button>
+                          <button  class="btn btn-danger" id='deleteBtn' onclick="deleteNote()" >Delete</button>
+                      </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src='js/newnote.js'></script>
+
+    <script src="js/redirect.js"></script>
+</body>
+</html>

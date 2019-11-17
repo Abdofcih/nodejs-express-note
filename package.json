@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-note-keeper",
+  "version": "1.0.0",
+  "description": "Note keeper app with nodejs ,htl and css",
+  "main": "main.js",
+  "scripts": {
+    "start": "node app/main.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Abdelrahman mahmoud",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6"
+  }
+}
